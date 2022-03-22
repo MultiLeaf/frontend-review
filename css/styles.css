@@ -1,0 +1,112 @@
+body {
+  font-family: Verdana;
+  background: url("../images/mosaico.webp");
+}
+
+header {
+  background-color: #ced6e0;
+  padding: 20px;
+  margin: 0;
+  color: purple;
+  font-size: 32px;
+  box-shadow: 0 5px 10px -5px grey;
+}
+
+.button {
+  padding: 15px;
+  color: white;
+  border-radius: 10px;
+  background-color: brown;
+  font-size: 22px;
+  border: none;
+}
+
+#button-one {
+  background-color: skyblue;
+}
+
+#button-two {
+  background-color: orange;
+}
+
+#button-three {
+  background-color: green;
+}
+
+#button-four {
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-size: 22px;
+  border: none;
+}
+
+.header-item {
+  display: inline-block;
+  width: 49%;
+}
+
+#buttons-group {
+  text-align: right;
+}
+
+aside {
+  display: inline-block;
+  width: 300px;
+  background-color: #ced6e0;
+  box-shadow: 0 5px 10px -5px grey;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+
+section {
+  display: inline-block;
+  width: calc(100vw - 340px);
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  padding: 10px;
+}
+
+.menu-item:hover {
+  border-right: 12px solid white;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.menu-item > a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu-item > a:hover {
+  color: grey;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+section > div {
+  padding: 20px;
+  background-color: #ced6e0;
+  box-shadow: 0 5px 10px -5px grey;
+}
+
+.button-red {
+  background-color: red;
+  color: white;
+  box-shadow: 0 5px 10px -5px grey;
+  border: 1px solid green;
+}
+
+.active {
+  border-right: 12px solid orange;
+}
